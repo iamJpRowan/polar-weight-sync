@@ -1,0 +1,23 @@
+{
+  "name": "polar-weight-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "fetch-cookie": "^0.7.3",
+    "jsdom": "^15.1.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/LiveSlowSkateFast/polar-weight-sync"
+  },
+  "author": "Jp Rowan",
+  "license": "ISC"
+}
