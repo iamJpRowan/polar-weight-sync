@@ -12,8 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -r build && mkdir build && cp -r node_modules index.js package* build && cd build && zip -r packakage.zip ./*"
+    "test": "node -e 'require(`./index.js`).handler(require(`./mocks/withings-notification-event`).event)'",
+    "build": "rm -r build && mkdir build && cp -r node_modules *.js package* build && cd build && zip -r packakage.zip ./*"
   },
   "repository": {
     "type": "git",
