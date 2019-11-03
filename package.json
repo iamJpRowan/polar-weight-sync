@@ -14,7 +14,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "node -e 'require(`./index.js`).handler(require(`./mocks/withings-notification-event`).event)'",
-    "build": "rm -r build && mkdir build && cp -r node_modules *.js package* build && cd build && zip -r packakage.zip ./*"
+    "build": "rm -r build && mkdir build && cp -r node_modules src index.js package* build && cd build && zip -r packakage.zip ./*"
   },
   "repository": {
     "type": "git",
