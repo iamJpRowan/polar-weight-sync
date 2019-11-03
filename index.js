@@ -1,5 +1,5 @@
-const polar = require('./polar')
-const withings = require('./withings')
+const polar = require('./src/polar')
+const withings = require('./src/withings')
 
 exports.handler = async (event) => {
   console.log(`Receiving new event:`)
