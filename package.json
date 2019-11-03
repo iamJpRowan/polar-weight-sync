@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "aws-sdk": "^2.562.0",
     "dotenv": "^8.1.0",
     "fetch-cookie": "^0.7.3",
     "jsdom": "^15.1.1",
